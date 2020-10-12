@@ -1,0 +1,100 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+header{
+  width: 100%;
+  height: 10%;
+  background-color: #e31b60;
+  position: fixed;
+  z-index: 2
+}
+
+.logo{
+  width: 200px;
+  vertical-align: middle;
+}
+
+ul{
+  list-style: none;
+}
+
+ul > li{
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+a{
+  text-decoration: none;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+input{
+  width: 600px;
+}
+
+.layover{
+  height: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#firstimage{
+
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("../img/sardegna.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+hr{
+  border: 10px solid #e31b60;
+}
+
+#secondimage{
+
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("../img/cortina.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+#thirdimage{
+
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("../img/toscana.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.text{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: #e31b60;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
