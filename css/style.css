@@ -18,6 +18,7 @@ header{
 }
 
 ul{
+  height: 10vh;
   list-style: none;
 }
 
@@ -89,6 +90,7 @@ hr{
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  text-shadow: 3px 3px black;
 }
 footer{
   width: 100%;
